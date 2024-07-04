@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Nexa Regular";
+    src: url(../fonts/NexaText-Trial-Regular.ttf);
+}
+@font-face {
+    font-family: "Nexa Book";
+    src: url(../fonts/Nexa-Trial-Book.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: "Display";
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+p, li, a {
+    font-family: "Nexa Regular";
+}
+.container {
+    max-width: 1128px;
+    width: 100%;
+    margin: 0 auto;
+}
+.catalog, .petrol  {
+    margin-top: 120px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p, a {
+    font-size: 24px;
+}
+.title1 {
+    font-size: 48px;
+    display: inline-block;
+}
+
+.breadcrumb {
+    list-style: none;
+}
+.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+.block_catalog, .block_petrol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roboto {
+    font-family: "Roboto";
+    color: #868686;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cards {
+    margin-top: 25px;
+}
+.card_footer {
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    margin-top: -4px;
+    border-radius: 2%;
+}
+.card_footer p a{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px;
+}
+/* СТИЛИ РАСЧЕТА СТОИМОСТИ */
+.cost {
+    margin: 65px 0;
+}
+.block_cost {
+    background: rgba(238, 238, 238, 1);
+    padding: 18px 50px 45px;
+}
+.text-center {
+   font-size: 48px;
+   text-align: center;
+   padding-bottom: 18px;
+}
+.block_cost a {
+    color: white;
+}
+.option_cost {
+    font-family: "Display";
+    width: 490px;
+    color: #6C757D;
+    font-size: 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 7px 10px;
+}
+.option_cost:nth-child(1) {
+    height: 40px;
+}
+.user_values {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.city {
+    max-width: 330px;
+    width: 100%;
+    margin-top: 30px;
+}
+.check {
+    margin-top: 30px;
+    font-family: "Display";
+    font-size: 20px;
+    color: #212529;
+}
+.check input {
+    border: 1px solid #CED4DA;
+}
+.block_cost button {
+    width: 100%;
+    border: none;
+    font-family: "Nexa Regular";
+    font-size: 24px;
+    background: #F55E41;
+    color: white;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+/* КОНЕЦ СТИЛЕЙ РАСЧЕТА СТОИМОСТИ  */
+.petrol_info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.petrol_info__sum {
+    font-size: 40px;
+}
+.petrol_text {
+    font-size: 20px;
+    margin-top: 18px;
+    font-family: "Nexa Book";
+}
+.block1_petrol {
+    width: 45%;
+}
+.block2_petrol {
+    background: #EEEEEE;
+    margin-left: 25px;
+    padding: 35px 40px;
+    border-radius: 4px;
+}
+.block2_petrol_text {
+    font-size: 40px;
+}
+.name_pers {
+    font-family: "Display";
+    width: 450px;
+    color: #6C757D;
+    font-size: 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 7px 10px;
+    display: block;
+    margin-top: 20px;
+}
+.text_pers {
+    /* height: 136px; */
+    padding-bottom: 100px;
+}
+.block2_petrol .check {
+    margin-top: 20px;
+}
+.block2_petrol button {
+    width: 100%;
+    border: none;
+    font-family: "Nexa Regular";
+    font-size: 24px;
+    background: #F55E41;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.block2_petrol a {
+    color: white;
+}
+.price {
+    margin-top: 40px;
+}
+.download {
+    display: flex;
+    align-items: center;
+}
+.download p {
+    margin-right: 15px;
+}
+.download img {
+    height: 26px;
+}
+.price table {
+    width: 100%;
+    margin-top: 25px;
+}
+.price table th {
+    font-size: 24px;
+    font-family: "Nexa Regular";
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.price table tr {
+    position: relative;
+}
+.price table tr:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.price table td {
+    font-family: "Nexa Book";
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0;
+}
+.text_orange {
+    color: #F55E41;
+}
